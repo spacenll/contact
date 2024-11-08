@@ -8,9 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div class="language-toggle">
-        <button onclick="toggleLanguage()">عربي / English</button>
-    </div>
+    
     <div class="container">
         <!-- الصورة الشخصية -->
         <div class="profile-pic">
@@ -18,10 +16,10 @@
         </div>
         
         <!-- معلومات التواصل -->
-        <h1 class="title">تواصل مع</h1>
-        <h2 class="name">علاء الدين خليل</h2>
-        <p class="job-title">مهندس حاسوب واتصالات</p>
-        <p class="location">عمان - ظفار- صلالة</p>
+        <h1 class="title">Contact with</h1>
+        <h2 class="name">Ala Aldin Khalil</h2>
+        <p class="job-title">Computer Science & Communication Engineering</p>
+        <p class="location">Oman - Dhofar - Salalah</p>
         
         <!-- أيقونات وسائل التواصل الاجتماعي -->
         <div class="social-icons">
@@ -36,18 +34,9 @@
         </div>
 
         <!-- رسالة تواصل -->
-        <p class="contact-message">أنا سأكون سعيدًا بتواصلك معي</p>
+        <p class="contact-message">I would be happy to hear from you 😄</p>
     </div>
 
-    <script>
-        // دالة تغيير اللغة
-        function toggleLanguage() {
-            const elements = document.querySelectorAll("[lang]");
-            elements.forEach(el => {
-                el.style.display = el.lang === "en" ? "none" : "block";
-                el.lang = el.lang === "en" ? "ar" : "en";
-            });
-        }
-    </script>
+
 </body>
 </html>
