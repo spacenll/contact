@@ -37,6 +37,9 @@ body {
 .topbar{
         font-size: large;
     color: darkslategray;
+     display: inline;
+    text-decoration: none;
+        padding: 0 5px;
 }
 
 .language-toggle button:hover {
