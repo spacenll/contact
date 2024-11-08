@@ -41,7 +41,14 @@ body {
     text-decoration: none;
         padding: 0 5px;
 }
+.topbar a {
+    color: #darkslategray; /* استبدل #007bff باللون الذي تريده */
+    text-decoration: none; /* لإزالة التسطير عن الرابط إذا أردت */
+}
 
+.topbar a:hover {
+    color: #0056b3; /* لون مختلف عند التمرير على الرابط (اختياري) */
+}
 .language-toggle button:hover {
     background-color: #88d3ce;
 }
