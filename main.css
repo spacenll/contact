@@ -1,7 +1,7 @@
 /* إعدادات الخلفية المتدرجة مع الحركة */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: monospace;
     display: grid;
     justify-content: center;
     align-items: center;
