@@ -19,6 +19,26 @@ body {
     100% { background-position: 0% 50%; }
 }
 
+/* زر تغيير اللغة */
+.language-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.language-toggle button {
+    background-color: #6e45e2;
+    border: none;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.language-toggle button:hover {
+    background-color: #88d3ce;
+}
+
 /* إعدادات الحاوية */
 .container {
     max-width: 400px;
@@ -30,21 +50,22 @@ body {
 
 /* تنسيق الصورة الشخصية */
 .profile-pic img {
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
     border: 3px solid #ffffff;
     margin-bottom: 15px;
 }
 
 /* تنسيق النصوص */
-h1 {
-    font-size: 28px;
+.title {
+    font-size: 24px;
     margin: 10px 0;
+    color: #cccccc;
 }
 
-h2 {
-    font-size: 22px;
+.name {
+    font-size: 30px;
     margin: 5px 0;
 }
 
@@ -66,9 +87,10 @@ h2 {
     text-decoration: none;
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.2);
-    padding: 10px 20px;
+    padding: 10px;
     margin: 5px;
-    border-radius: 5px;
+    border-radius: 50%;
+    font-size: 18px;
     transition: background-color 0.3s, transform 0.3s;
 }
 
@@ -76,4 +98,11 @@ h2 {
     background-color: #ffffff;
     color: #6e45e2;
     transform: scale(1.1);
+}
+
+/* رسالة تواصل */
+.contact-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ffffff;
 }
