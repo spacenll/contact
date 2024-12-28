@@ -22,6 +22,30 @@
         .hidden-text {
             display: none;
         }
+
+        /* تنسيق الزر العائم */
+        .floating-btn {
+            position: fixed;
+            bottom: 20px; /* المسافة من أسفل الصفحة */
+            right: 20px; /* المسافة من يمين الصفحة */
+            width: 60px;
+            height: 60px;
+            background-color: #007BFF; /* لون الخلفية */
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+            font-size: 24px;
+            z-index: 1000;
+        }
+
+        .floating-btn:hover {
+            background-color: #0056b3;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
     </style>
 </head>
 <body>
@@ -59,6 +83,11 @@
             علاء الدين خليل، spacenll علوم الحاسوب، هندسة الاتصالات، سلطنة عمان، صلالة، YouTube، LinkedIn، Instagram، TikTok، Twitter، Facebook، WhatsApp، Pinterest.
         </div>
     </div>
+
+    <!-- زر الصفحة الرئيسية -->
+    <a href="/home" class="floating-btn" title="الصفحة الرئيسية">
+        <i class="fas fa-home"></i>
+    </a>
 
 </body>
 </html>
